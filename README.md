@@ -1,5 +1,5 @@
 # REBOOT YOUR SKILLS 🎓
-<pre>         A helper for all techies...<pre>
+  A helper for all techies...
 
 ## PROBLEM STATEMENT
 - It is often hard to find mentors if you have some doubt or want to get guidance in any specific subfield of technology.🤔
