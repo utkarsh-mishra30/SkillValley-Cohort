@@ -1,7 +1,7 @@
 <h1 align="center">WELCOME TO OUR PROJECT🛠</h1>
 
 <p align="center">
-<img src="images/headerImage.png" width="1000" height="350">
+<img src="headerImage.png" width="1000" height="350">
 </p> 
 <br>
 <div align="center">
