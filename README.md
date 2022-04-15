@@ -1,5 +1,6 @@
-# REBOOT YOUR SKILLS 🎓
-         A helper for all techies...
+<p align="center">
+<img src="images/headerImage.png" width="500">
+</p> 
 
 ## PROBLEM STATEMENT
 - It is often hard to find mentors if you have some doubt or want to get guidance in any specific technical subfield.🤔
