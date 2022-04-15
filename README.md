@@ -19,13 +19,14 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a >Problem Statement</a>
+      <a href="https://github.com/utkarsh-mishra30/SkillValley-Cohort#problem-statement-">Problem Statement</a>
     </li>
-    <li><a>Features of our project</a></li>
-    <li><a>Tech Stacks</a></li>
-    <li><a>Work Flow</a></li>
-    <li><a>Team Members</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="https://github.com/utkarsh-mishra30/SkillValley-Cohort#features-of-our-project-different-sections">Features of our project</a></li>
+    <li><a href="https://github.com/utkarsh-mishra30/SkillValley-Cohort#tech-stacks-">Tech Stacks</a></li>
+    <li><a href="https://github.com/utkarsh-mishra30/SkillValley-Cohort#workflow-">Work Flow</a></li>
+    <li><a href="https://github.com/utkarsh-mishra30/SkillValley-Cohort#ui/ux-of-our-website-">UI/UX of our website</a></li>
+    <li><a href="https://github.com/utkarsh-mishra30/SkillValley-Cohort#team-members">Team Members</a></li>
+    <li><a href="https://github.com/utkarsh-mishra30/SkillValley-Cohort#connect-with-team-members">Connect with team members</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -57,7 +58,7 @@
 ## WORKFLOW 📃
 
 
-- [x] Week 1 :
+- [x] Week 1 : [Submission of Problem Statement and Github Link](https://github.com/utkarsh-mishra30/SkillValley-Cohort)
 - [ ] Week 2 :
 - [ ] Week 3 :
 - [ ] Week 4 :
@@ -65,15 +66,38 @@
 
 <br>
 
-<!-- ## UI/UX OF OUR WEBSITE:🎨 -->
+## UI/UX OF OUR WEBSITE:🎨
+ NOTE: we will be adding soon.
 
-## TEAM MEMBERS
+## TEAM MEMBERS ✍
 1. [Utkarsh Mishra](https://twitter.com/utkarshopedia)
 2. [Rashi Shukla](https://twitter.com/17rashishukla)
 3. [Aman Chauchan](https://twitter.com/phantomthread_d)
 4. [Shweta Thakur](#)
 
 ## Connect with team members
-![Twitter URL](https://img.shields.io/twitter/url?label=Utkarsh&style=social&url=https%3A%2F%2Ftwitter.com%2Futkarshopedia) 
-![Twitter URL](https://img.shields.io/twitter/url?label=Rashi&style=social&url=https%3A%2F%2Ftwitter.com%2F17rashishukla)
-![Twitter URL](https://img.shields.io/twitter/url?label=Aman&style=social&url=https%3A%2F%2Ftwitter.com%2Fphantomthread_d)
+
+<!-- Twitter Handles -->
+![Twitter URL](https://img.shields.io/twitter/url?color=blue&label=Utkarsh&logo=twitter&logoColor=white&style=flat-square&url=https%3A%2F%2Ftwitter.com%2Futkarshopedia)
+![Twitter URL](https://img.shields.io/twitter/url?color=blue&label=Rashi&logo=twitter&logoColor=white&style=flat-square&url=https%3A%2F%2Ftwitter.com%2F17rashishukla)
+![Twitter URL](https://img.shields.io/twitter/url?color=blue&label=Aman&logo=twitter&logoColor=white&style=flat-square&url=https%3A%2F%2Ftwitter.com%2Fphantomthread_d)
+![Twitter URL](https://img.shields.io/twitter/url?color=blue&label=Shweta&logo=twitter&logoColor=white&style=flat-square&url=https%3A%2F%2Ftwitter.com%2Fshweeta)
+
+
+<!-- LinkedIn IDs -->
+<a href="https://www.linkedin.com/in/utkarsh-mishra30">
+<img src="https://img.shields.io/badge/Utkarsh-blue?style=flat&logo=linkedin&labelColor=blue">
+</a>
+
+<a href="https://www.linkedin.com/in/rashi-shukla-9b2426200/">
+<img src="https://img.shields.io/badge/Rashi-blue?style=flat&logo=linkedin&labelColor=blue">
+</a>
+
+<a href="https://www.linkedin.com/in/amanchauhann/">
+<img src="https://img.shields.io/badge/Aman -blue?style=flat&logo=linkedin&labelColor=blue">
+</a>
+
+<a href="https://www.linkedin.com/in/shweta-thakur-ba3b99211">
+<img src="https://img.shields.io/badge/Shweta -blue?style=flat&logo=linkedin&labelColor=blue">
+</a>
+
