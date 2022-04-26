@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+:root {
+    --l-blue: #004AAD;
+    --lato: 'Lato', sans-serif;
+}
+
+.main__Header{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+    background-color: var(--l-blue);
+    height: 90px;
+    font-family: var(--lato);
+}
+
+.left__Container{
+    display: flex;
+    border: 3px solid black;
+    gap: 1rem;
+    margin: 0.2rem;
+}
+
+.left__Container>img{
+    border: 3px solid yellow;
+}
+
+.right__Container{
+    border: 3px solid black;
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 3rem;
+    align-items: flex-start;
+}
+
+.right__Container > * {
+    border: 3px solid var(--l-blue);
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-style: outset;
+    padding: 0.6rem;
+}

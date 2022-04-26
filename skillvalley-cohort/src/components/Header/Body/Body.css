@@ -1,0 +1,8 @@
+:root{
+    --d-blue: #170044; 
+}
+
+.body{
+    background-color: var(--d-blue);
+    height: 100vh;
+}
