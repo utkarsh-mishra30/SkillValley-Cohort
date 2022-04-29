@@ -1,8 +1,69 @@
 :root{
+    --l-blue: #004AAD;
     --d-blue: #170044; 
 }
 
 .body{
     background-color: var(--d-blue);
-    height: 100vh;
+    padding: 3rem;
+    min-height: 100vh;
 }
+
+.white__Area{
+    border: 4px solid red;
+    background-color: white;
+    height: 10rem;
+    width: 40rem;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.picture__Container{
+    border: 2px solid black;
+    width: 20%;
+}
+
+.picture{
+    /* border: 3px solid green; */
+    position: absolute;
+    height: 40%;
+    left: 3%;
+    top: 6%
+}
+
+.right__Side{
+    border: 3px solid blueviolet;
+    width: 80%;
+    padding: 0.6rem 0rem;
+    position: relative;
+}
+
+.input{
+    width: 90%;
+    height: 60%;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.add__Button{
+    border: 2px solid var(--d-blue);
+    position: absolute;
+    bottom: 7%;
+    right: 20px;
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border-radius: 40px;
+}
+
+.add__Button:hover{
+    background-color: var(--l-blue);
+    color: white;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
