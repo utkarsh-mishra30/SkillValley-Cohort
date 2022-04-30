@@ -1,3 +1,4 @@
+import { isDisabled } from '@testing-library/user-event/dist/utils';
 import React, { useState } from 'react'
 import './Body.css'
 // import Feed from './Feed'
@@ -9,12 +10,39 @@ function Body() {
     const handleToggle = () => {
         setActive(!isActive);
     };
+
+    const [commentDisplay, setCommentDisplay] = useState()
+    const toggleComment = () => {
+      setCommentDisplay(!commentDisplay)
+    };
     const [input, setInput] = useState('');
     const [posts, setPost] = useState([])
 
+    const [addComment, setAddComment] = useState('')
+    const [storeComment, setStoreComment] = useState([])
+
+    const [isDisabled, setIsDisabed] = useState(false)
+    const [isDisabledT, setIsDisabedT] = useState(false)
+
+
     function addPost(event) {
-        console.log("working")
+      if(input !== ''){
         setPost([...posts, input])
+      }else{
+        setIsDisabed(false)
+      }
+      setInput('')
+    }
+
+    function addCommentFunction(event) {
+      console.log("gj")
+      if(addComment !== ''){
+        setStoreComment([...storeComment, addComment])
+      }else{
+        setIsDisabedT(false)
+      }
+      
+      setAddComment('')
     }
 
     
@@ -26,7 +54,7 @@ function Body() {
                 </div>
                 <div className='right__Side'>
                 <textarea value={input} onChange={event => setInput(event.target.value)} className='input' placeholder='Add your question here'></textarea>
-                <button onClick={addPost} className='add__Button'>POST</button>
+                <button onClick={addPost} className='add__Button' disabled={isDisabled}>POST</button>
                 </div>
             </div>
 
@@ -60,14 +88,15 @@ function Body() {
                 <div className={isActive ? "heart" : "is-active"} onClick={handleToggle}></div>
               </div>
               <div className='comment__Container'>
-                <a href="#" className='comment'></a>
+                <a href="#" className='comment' onClick={toggleComment}></a>
               </div>
             </div>
-            <div className='user__Comments'>
-              <textarea placeholder='Enter your comment' className='set__Comment'></textarea>
+            <div className={commentDisplay ? 'user__Comments' : 'user__CommentsHide'}>
+              <textarea value={addComment} onChange={event => setAddComment(event.target.value)} placeholder='Enter your comment' className='set__Comment'></textarea>
               <div className='comment__ButtonHolder'>
-                <button className='user__CommentButton'>Comment</button>
+                <button onClick={addCommentFunction} className='user__CommentButton' disabled={isDisabledT}>Comment</button>
               </div>
+              {storeComment.map(storedComment => (
               <div className='user__CommentHolder'>
                   <div className='user__CommentLeft'>
                     <div className='user__CommentPicture'></div>
@@ -76,19 +105,24 @@ function Body() {
                       <div className='user__CommentName'>Aman Chauhan</div>
                       <div className='user__CommentBottom'>
                         <ul>
-                          <li>Aman</li>
+                        
+                            <li>{storedComment}</li>
+                        
+                          
                         </ul>
                       </div>
                   </div>
               </div>
+              ))}
             </div>
           </div>
         </div>
       </div>
       
     </div>
+    
           ))}
-
+    
         </div>
     )
 }

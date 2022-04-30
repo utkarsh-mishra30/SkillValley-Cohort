@@ -1,43 +1,59 @@
 .main__Container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-color: white;
-    min-height: 20rem;
+    /* min-height: 20rem; */
     margin: auto;
-    width: 50%;
+    width: 40rem;
     display: flex;
+    border-radius: 4px;
+}
+
+.main__Container:hover{
+  background-color: rgb(243, 240, 240);
+  transition: 1.3s;
 }
 
 .right__SubContainer{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 10%;
     height: 100%;
+    background-color: #e6e3e3;
 }
 
 .left__subContainer{
-    border: 4px solid green;
+    /* border: 4px solid green; */
     width: 90%;
     padding: 0.3rem;
 }
 
 .left__textContainer{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     height: 100%;
     padding: 0.3rem;
     position: relative;
 }
 
 .title__Holder{
-    outline: 2px solid yellow;
+    /* outline: 2px solid yellow; */
+
     text-align: left;
-    width: fit-content;
+    width: 100%;
+    background-color: #e6e3e3;
+}
+
+.name{
+  font-weight: 700;
 }
 
 .postContainer{
-    outline: 2px solid red;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    /* outline: 2px solid red; */
+    margin: 0rem 0 1rem 0rem;
+    /* margin-bottom: 1rem; */
+    padding-top: 0.6rem;
     text-align: justify;
     min-height: 100px;
+    background-color: #e6e3e3;
+
 }
 
 .icon__Container{
@@ -186,11 +202,16 @@
   }
 
   .user__Comments{
-    border: 2px solid navajowhite;
+    /* border: 2px solid navajowhite; */
     width: 90%;
     margin: auto;
     min-height: 50px;
     padding: 1rem;
+    background-color: #e6e3e3;
+}
+
+.user__CommentsHide{
+  display: none;
 }
 
 .set__Comment{
@@ -202,40 +223,43 @@
 }
 
 .comment__ButtonHolder{
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   display: flex;
   justify-content: flex-end;
   width: 90%;
   margin: auto;
   margin-bottom: 1rem;
+  margin-top: 0.4rem;
 }
 
 .user__CommentHolder{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
+  background-color: #d8d5d5;
 }
 
 .user__CommentLeft{
-  border: 2px solid lightseagreen;
+  /* border: 2px solid lightseagreen; */
   width: 5%;
 }
 
 .user__CommentRight{
-  border: 1px solid tomato;
+  /* border: 1px solid tomato; */
   width: 95%;
 }
 
 .user__CommentName{
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
   text-align: left;
+  font-weight: 700;
 }
 
 .user__CommentBottom{
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .user__CommentBottom>ul{
-  padding-inline-start: 0;
+  padding-inline-start: 10px;
   list-style: none;
   text-align: left;
 }

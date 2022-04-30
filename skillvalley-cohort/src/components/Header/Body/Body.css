@@ -10,20 +10,20 @@
 }
 
 .white__Area{
-    border: 4px solid red;
+    /* border: 4px solid red; */
     background-color: white;
     height: 10rem;
     width: 40rem;
     margin: auto;
-    border-radius: 20px;
+    border-radius: 9px;
     position: relative;
     display: flex;
     margin-bottom: 3rem;
 }
 
 .picture__Container{
-    border: 2px solid black;
-    width: 20%;
+    /* border: 2px solid black; */
+    width: 15%;
 }
 
 .picture{
@@ -35,18 +35,19 @@
 }
 
 .right__Side{
-    border: 3px solid blueviolet;
+    /* border: 3px solid blueviolet; */
     width: 80%;
     padding: 0.6rem 0rem;
     position: relative;
 }
 
 .input{
-    width: 90%;
+    width: 95%;
     height: 60%;
     resize: none;
     border: none;
     outline: none;
+    border-bottom: 2px solid black;
 }
 
 .add__Button{

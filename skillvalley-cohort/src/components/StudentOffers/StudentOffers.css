@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root{
+    --d-blue: #170044; 
+    --l-blue: #004AAD;
+}
+
+.student__Offers{
+    background-color: var(--d-blue);
+    min-height: 100vh;
+}
+.student__Offers>h5{
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid;
+} 
+
+.main__Article{
+    margin-top: 3rem;
+    border: 1px solid red;
+    display: flex;
+    width: fit-content;
+    font-family: 'PT Serif', serif;
+    background-color: white;
+}
+
+.main__Article>.left__Side{
+    border: 1px solid green;
+}
+
+.main__Article>.left__Side>img{
+    border: 1px solid blue;
+    width: 20rem;
+}
+
+.main__Article>.right__Side{
+    border: 1px solid orange;
+    text-align: left;
+    padding: 1rem;
+}
+
+.main__Article>.right__Side>.deal__tenure{
+    color: #c3c2be;
+}
+
+.price{
+    color: #004aac;
+    font-weight: 600;
+}
+
+.price:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.offer__Detail{
+    font-size: 14px;
+    color: #000;
+}
+
+.get__Deal{
+    margin-top: 2rem;
+    width: 150px;
+    padding: 0.6rem;
+    background-color: transparent;
+    border: 3px solid var(--d-blue);
+    border-radius: 20px;
+}
+
+.get__Deal:hover{
+    background-color: var(--l-blue);
+    color: white;
+    transition: 0.5s ease-in-out;
+}
