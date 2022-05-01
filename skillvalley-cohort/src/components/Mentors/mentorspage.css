@@ -1,3 +1,9 @@
-/* .Mbackground{
+:root{
+   --d-blue: #170044; 
+   --l-blue: #004AAD;
+}
+
+.Mbackground{
+   height: 100vh;
    background-color: var(--d-blue);
-} */
+}
