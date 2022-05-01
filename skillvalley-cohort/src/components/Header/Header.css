@@ -39,4 +39,9 @@
     border-top-left-radius: 1rem;
     border-style: outset;
     padding: 0.6rem;
+    color: white;
+}
+.section__One:hover{
+    text-decoration: none;
+    color: white;
 }

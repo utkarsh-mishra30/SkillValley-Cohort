@@ -5,50 +5,90 @@
     --l-blue: #004AAD;
 }
 
-.student__Offers{
+/* .student__Offers{
     background-color: var(--d-blue);
     min-height: 100vh;
-}
-.student__Offers>h5{
-    /* border: 1px solid black; */
+} */
+/* .student__Offers>h5{
+    border: 1px solid black;
     width: 60%;
     margin: auto;
     padding-top: 1rem;
     padding-bottom: 2rem;
     border-bottom: 2px solid;
-} 
+    color: white;
+}  */
 
 .main__Article{
     margin-top: 3rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     width: fit-content;
     font-family: 'PT Serif', serif;
     background-color: white;
+    padding: 1rem;
+    width: 40rem;
+    margin: auto;
 }
 
+@media screen and (max-width: 1475px) {
+    .main__Article{
+        width: 35rem;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .main__Article{
+        width: 30rem;
+    }
+}
+
+/* @media screen and (max-width: 1130px) {
+    .main__Article{
+        width: 25rem;
+    }
+} */
+
+
+@media screen and (max-width: 750px) {
+    .main__Article{
+        width: 35rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .main__Article{
+        width: 29rem;
+    }
+}
+
+
 .main__Article>.left__Side{
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    width: 30%;
 }
 
 .main__Article>.left__Side>img{
-    border: 1px solid blue;
-    width: 20rem;
+    /* border: 1px solid blue; */
+    width: 100%;
 }
 
 .main__Article>.right__Side{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     text-align: left;
     padding: 1rem;
+    padding-right: 6rem;
 }
 
 .main__Article>.right__Side>.deal__tenure{
     color: #c3c2be;
+    font-size: x-large;
 }
 
 .price{
     color: #004aac;
     font-weight: 600;
+    font-size: xx-large;
 }
 
 .price:hover{
