@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@600;700&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@600;700&family=Encode+Sans:wght@600&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@600;700&family=Encode+Sans:wght@600&family=Lobster&family=Tapestry&display=swap');
+
+/* *{
+   box-sizing: border-box;
+   background-color: rgb(70, 17, 70);
+   flex-direction: row;
+} */
+
+.Main{
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+   float: left;
+   margin: 10px;
+   justify-content: center;
+}
+
+.card-container{
+   border: 2px solid black;
+   width: 430px;
+   height: 250px;
+   background-color: rgb(239, 220, 226);
+   margin-right: 0px;
+   text-align: left;
+   flex-direction: row;
+   display: flex;
+   box-shadow: 1px 2px 3px 4px rgba(90, 42, 157, 0.1);
+   padding: 2px;
+   margin: 20px 20px;
+   overflow: hidden;
+}
+
+.card-container:hover{
+   box-shadow: rgba(191, 185, 188, 0.4) 5px 5px 5px 5px;
+   transform: scale(0.980);
+}
+
+.mentor-image img{
+   height: 245px;
+   width: 180px;
+   border: 3px solid black;
+}
+
+.text-container{
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   /* border: 2px solid blue; */
+   margin: 2px;
+}
+
+.text-container h2{
+   background-color: white;
+   font-family: 'Encode Sans Expanded', sans-serif;
+   font-size: 18px;
+   padding: 10px;
+   margin-top: -10px;
+   font-family: 'Tapestry', cursive;
+}
+
+.mentor-name h1{
+   background-color: white;
+   padding: 10px;
+   margin: 0px;
+   font-size: 30px;
+   font-family: 'Tapestry', cursive;
+}
+
+.mentor-skills p{
+   background-color: white;
+   font-size: 20px;
+   padding: 10px;
+   margin-top: -10px;
+   font-family: 'Lobster', cursive;
+}
+
+.text-container div{
+   background-color: white;
+}
