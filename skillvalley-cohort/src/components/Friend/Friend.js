@@ -24,7 +24,7 @@ function Friend() {
         </div>
         
 
-        <img src={`https://robohash.org/${robot}?size=400x400`}></img>
+        <img src={`https://robohash.org/${robot}`}></img>
     </div>
   )
 }
