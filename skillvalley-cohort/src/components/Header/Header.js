@@ -1,14 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './Header.css'
+import personName from  '../login/Login'
+
 
 function Header() {
     return (
         <div className='header'>
             <div className='main__Header'>
                 <div className='left__Container'>
-                        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrEn_CtYPQz-T6HCZsNVNZW8pmGh55nkOpFJ9lOyU64YKTRg7v6MSra0j3TnJmh1sM7PU&usqp=CAU' alt=''></img>
-                        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA8s1EYHkv2tEtNRbZkKT5pnnKNsIWYQZCkw&usqp=CAU' alt=''></img>
+                <Link to='/'>
+                    <img src='https://logopond.com/logos/ed8a74549cdf5ebafb564ec3ecc4c231.png' alt=''></img>
+                </Link>
+                <Link to="/friends">
+                    <div className='make__Friend'>Make new friend</div>
+                </Link>
+                
+                        
+                        {/* <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA8s1EYHkv2tEtNRbZkKT5pnnKNsIWYQZCkw&usqp=CAU' alt=''></img> */}
                 </div>
             <div className='right__Container'>
                 <Link to="/offers">
@@ -18,8 +27,13 @@ function Header() {
                 <Link to="/MentorPage">
                     <div className='section__Three'>Mentors</div>
                 </Link>  
-
-                <div className='section__Two'>Tutorials</div>
+                <Link to="/tutorial">
+                    <div className='section__Two'>Tutorials</div>
+                </Link>
+                
+                <Link to="/login">
+                    <div className='section__Four'>login</div>
+                </Link>
             </div>
             </div>
         </div>

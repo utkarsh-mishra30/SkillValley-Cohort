@@ -1,0 +1,63 @@
+:root {
+    --l-blue: #004AAD;
+    --d-blue: #170044; 
+
+}
+
+
+.friend{
+    min-height: 100vh;
+    background-color: var(--d-blue);
+}
+
+.friend>h1{
+    color: white;
+    /* text-decoration: underline; */
+}
+
+.friend>h1>span{
+    color: var(--l-blue);
+}
+
+.friend>h5{
+    width: 60%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid;
+    color: white;
+    margin-bottom: 3rem
+}
+
+.friend>h4{
+    color: white;
+}
+
+.friend .roboInputContainer{
+    display: block;
+}
+
+.roboInputContainer input{
+    /* border: 6px solid green; */
+    margin:  2rem;
+    min-width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 20px;
+    outline: 4px solid var(--l-blue);
+}
+
+.roboInputContainer button,
+.roboInputContainer button:active{
+    width: 10%;
+    border-radius: 20px;
+    height: 40px;
+    outline: 4px solid var(--l-blue);
+    background-color: var(--l-blue);
+}
+
+.roboInputContainer button:hover{
+    color: white;
+    outline: 4px solid var(--l-blue);
+
+}

@@ -59,8 +59,8 @@
 
 
 - [x] Week 1 : [Submission of Problem Statement and Github Link](https://github.com/utkarsh-mishra30/SkillValley-Cohort)
-- [ ] Week 2 : [DFD diagrams and UI](https://github.com/utkarsh-mishra30/SkillValley-Cohort/blob/main/week%20-%202/week-2.md)
-- [ ] Week 3 :
+- [x] Week 2 : [DFD diagrams and UI](https://github.com/utkarsh-mishra30/SkillValley-Cohort/blob/main/week%20-%202/week-2.md)
+- [x] Week 3 : [Added week - 3 report and updated our work](https://github.com/utkarsh-mishra30/SkillValley-Cohort/wiki/WEEK-3-REPORT-%F0%9F%93%83)
 - [ ] Week 4 :
 - [ ] Week 5 :
 
