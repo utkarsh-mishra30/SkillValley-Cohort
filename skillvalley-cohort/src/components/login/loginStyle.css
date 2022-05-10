@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@600;700&family=Encode+Sans:wght@600&family=Lobster&family=Tapestry&display=swap');
+
+
+
+.g-signin{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-top: -50px;
+   margin-left: -50px;
+}
+
+.myLoginPage{
+   width: auto;
+   height: 670px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #170044;
+   color: white;
+   font-size: 2rem;
+   font-family: 'PT Serif', serif;
+
+}
+
+.home{
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.54);
+    box-shadow: rgb(0 0 0 / 24%) 0px 2px 2px 0px, rgb(0 0 0 / 24%) 0px 0px 1px 0px;
+    padding: 11px 13px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+    -webkit-appearance: button;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.home:hover{
+   background-color: rgba(255, 255, 255, 0.703);
+}
