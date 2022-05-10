@@ -17,7 +17,17 @@
     /* border: 2px solid black; */
     width: 10%;
     height: 100%;
-    background-color: #e6e3e3;
+    /* background-color: #e6e3e3; */
+    padding: 1px;
+}
+
+.image__Container{
+  /* border: 2px solid red; */
+}
+
+.random__User{
+  /* border: red; */
+  max-width: 100%;
 }
 
 .left__subContainer{

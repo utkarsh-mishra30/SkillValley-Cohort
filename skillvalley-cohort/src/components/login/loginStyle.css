@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@600;700&family=Encode+Sans:wght@600&family=Lobster&family=Tapestry&display=swap');
 
 
+
 .g-signin{
    position: absolute;
    top: 50%;
@@ -19,7 +20,8 @@
    background-color: #170044;
    color: white;
    font-size: 2rem;
-   font-family: 'Lobster', cursive;
+   font-family: 'PT Serif', serif;
+
 }
 
 .home{

@@ -26,6 +26,15 @@ function Login() {
         setShowlogoutButton(false);
     };
 
+    // const [nameInput, setNameInput] = useState();
+    // const [personName, setPersonName] = useState();
+    // const nameSubmit = () => {
+    //     if(personName !== undefined){
+    //         setPersonName(nameInput)
+    //         console.log(personName)
+    //     }
+    // }
+
     return (
         <div className='myLoginPage'>
            <h1>Login to continue</h1>
@@ -47,6 +56,8 @@ function Login() {
                 >
                 </GoogleLogout> : null
             }
+            {/* <input value={nameInput} placeholder='pick your name' onChange={event => setNameInput(event.target.value)}></input>
+            <button onClick={nameSubmit}>Submit</button> */}
          <Link style={{textDecoration: 'none'}} to='/'>
             <div className='home'>Want to ask a question?</div>
          </Link>

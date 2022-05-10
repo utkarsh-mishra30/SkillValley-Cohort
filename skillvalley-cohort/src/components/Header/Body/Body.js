@@ -5,6 +5,7 @@ import './Body.css'
 import './Feed.css'
 
 
+
 function Body() {
     const [isActive, setActive] = useState("false")
     const handleToggle = () => {
@@ -24,6 +25,8 @@ function Body() {
     const [isDisabled, setIsDisabed] = useState(false)
     const [isDisabledT, setIsDisabedT] = useState(false)
 
+    let randomImage = `https://robohash.org/drum`;
+
 
     function addPost(event) {
       if(input !== ''){
@@ -35,7 +38,6 @@ function Body() {
     }
 
     function addCommentFunction(event) {
-      console.log("gj")
       if(addComment !== ''){
         setStoreComment([...storeComment, addComment])
       }else{
@@ -50,7 +52,8 @@ function Body() {
         <div className='body'>
             <div className='white__Area'>
                 <div className='picture__Container'>
-                    <img className='picture' src='https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80' />
+                  <img alt='robots' className='picture' src={randomImage}></img>
+                    {/* <img className='picture' src='https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80' /> */}
                 </div>
                 <div className='right__Side'>
                 <textarea value={input} onChange={event => setInput(event.target.value)} className='input' placeholder='Add your question here'></textarea>
@@ -63,7 +66,7 @@ function Body() {
       <div className='main__Container'>
         <div className='right__SubContainer'>
           <div className='image__Container'>
-
+          <img alt='robots'className='random__User' src={randomImage}></img>
           </div>
         </div>
         <div className='left__subContainer'>
