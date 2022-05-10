@@ -4,7 +4,7 @@ import './friend.css'
 
 function Friend() {
     const [robotName, setRobotName] =  useState()
-    const [robot, setRobot] = useState()
+    const [robot, setRobot] = useState("aman")
     const robotSubmit = () => {
        
             setRobot(robotName)
@@ -24,7 +24,7 @@ function Friend() {
         </div>
         
 
-        <img src={`https://robohash.org/a${robot}?size=400x400`}></img>
+        <img src={`https://robohash.org/${robot}?size=400x400`}></img>
     </div>
   )
 }
