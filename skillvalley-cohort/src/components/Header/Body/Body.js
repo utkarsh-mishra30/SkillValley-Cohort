@@ -72,7 +72,7 @@ function Body() {
         <div className='left__subContainer'>
           <div className='left__textContainer'>
             <div className='title__Holder'>
-              <div className='name'>Aman Chauhan</div>
+              <div className='name'>Anonymous</div>
             </div>
             <div className='postContainer'>{post}
             </div>
@@ -105,7 +105,7 @@ function Body() {
                     <div className='user__CommentPicture'></div>
                   </div>
                   <div className='user__CommentRight'>
-                      <div className='user__CommentName'>Aman Chauhan</div>
+                      <div className='user__CommentName'>Anonymous</div>
                       <div className='user__CommentBottom'>
                         <ul>
                         
