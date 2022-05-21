@@ -14,10 +14,10 @@ function Main() {
         <BrowserRouter>
             <div>
             <Routes>
-            <Route path="/" element={[<Header />, <Body />]} />
+            <Route path="/home" element={[<Header />, <Body />]} />
             <Route path="/offers" element={[<Header />, <MainStudentOffer />]} />
             <Route path="/MentorPage" element={[<Header />, <MentorPage />]} />
-            <Route path="/Login" element={[<Header />, <Login />]} />
+            <Route path="/" element={[<Header />, <Login />]} />
             <Route path="/tutorial" element={[<Header />, <Tutorial />]} />
             <Route path="/friends" element={[<Header />, <Friend />]} />
             </Routes>
