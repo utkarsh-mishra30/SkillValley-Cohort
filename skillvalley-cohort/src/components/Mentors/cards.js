@@ -1,7 +1,10 @@
 import React from 'react'
 import './cardsElement.css'
 
-const cards = ({name, imgUrl, prof, skills}) => {
+import twtrimg from "./mentors/twittericon.png"
+import linkedin from "./mentors/linkedinicon.png"
+
+const cards = ({name, imgUrl, prof, skills, twtr, lkdn}) => {
   return(
       <div className='Main'>
          <div className='card-container'>
@@ -13,12 +16,18 @@ const cards = ({name, imgUrl, prof, skills}) => {
                   <h1>{name}</h1>
                </div>
                <div>
-                  <h2>{prof}</h2>
+                  <h4>{prof}</h4>
                </div>
                <div className='mentor-skills'>
                   <p>{skills}</p>
                </div>
+
+               <div className='socials'>
+                  <a href={twtr} target="_blank"><img src={twtrimg}></img></a>
+                  <a href={lkdn} target="_blank"><img src={linkedin}></img></a>
+               </div>
             </div>
+            
          </div>
       </div>
   );

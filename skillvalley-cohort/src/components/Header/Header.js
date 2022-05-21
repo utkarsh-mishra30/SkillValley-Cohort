@@ -9,11 +9,16 @@ function Header() {
         <div className='header'>
             <div className='main__Header'>
                 <div className='left__Container'>
+
+                <Link to='/'>
+                    <img src='logo.png' alt=''></img>
+
                 <Link to='/home'>
                     <img src='https://logopond.com/logos/ed8a74549cdf5ebafb564ec3ecc4c231.png' alt=''></img>
+ 
                 </Link>
                 <Link to="/friends">
-                    <div className='make__Friend'>Make new friend</div>
+                    <div className='make__Friend' style={{ textDecoration: 'none' }}>Make new friend</div>
                 </Link>
                 
                         
@@ -31,8 +36,12 @@ function Header() {
                     <div className='section__Two'>Tutorials</div>
                 </Link>
                 
+                <Link to="/login">
+                    <div className='section__Four'>Login</div>
+
                 <Link to="/">
                     <div className='section__Four'>login</div>
+
                 </Link>
             </div>
             </div>

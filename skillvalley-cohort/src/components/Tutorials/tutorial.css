@@ -4,12 +4,12 @@
 }
 
 .tutorial__Container{
-    min-height: 100vh;
+    min-height: 200vh;
     background-color: var(--d-blue);
 }
 
 .tutorial{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-top: 3rem;
     display: flex;
     /* flex-direction: column; */
@@ -21,5 +21,8 @@
 .video h4{
     color: white;
     max-width: max-content;
-    border: 2px solid var(--l-blue);
+    margin-top: 10px;
+    margin-left: 30%;
+    text-decoration: underline;
+    /* border: 2px solid var(--l-blue); */
 }
