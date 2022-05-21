@@ -9,7 +9,7 @@ function Header() {
         <div className='header'>
             <div className='main__Header'>
                 <div className='left__Container'>
-                <Link to='/'>
+                <Link to='/home'>
                     <img src='https://logopond.com/logos/ed8a74549cdf5ebafb564ec3ecc4c231.png' alt=''></img>
                 </Link>
                 <Link to="/friends">
@@ -31,7 +31,7 @@ function Header() {
                     <div className='section__Two'>Tutorials</div>
                 </Link>
                 
-                <Link to="/login">
+                <Link to="/">
                     <div className='section__Four'>login</div>
                 </Link>
             </div>
