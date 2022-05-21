@@ -12,12 +12,12 @@ function MainStudentOffer() {
                         image="https://i.pcmag.com/imagery/reviews/00EU3U5rRoe9swRlkJE2yDa-1.fit_lim.size_1200x630.v1601052236.jpg"
                         tenure="Ends in 51 days"
                         amount= "£22.99 Echo Dot" 
-                        details="You can't deny"
+                        details="You can't deny, Best offer you can ever get"
                         />
                     <StudentOffers
                         image="https://imgproxy.gener8ads.com/uBU4pssDKJa-D4YnITDVbRYyC64Ig0vXNAJYFk9EzHI/fit/512/512/no/0/Z3M6Ly9nZW5lcjgtcHJvZHVjdGlvbi1tYXJrZXRwbGFjZS1hc3NldHMvbGF1bmNoL1BhY2tzaG90X0FtYXpvbi5wbmc.png"
                         tenure="Ongoing"
-                        amount= "10 off a £30 Amazon spend (selected customers)" 
+                        amount= "10% of on £30 Amazon spend (T&C)" 
                         details="When you sign up for first time"
                     />
                          <StudentOffers
@@ -35,7 +35,7 @@ function MainStudentOffer() {
                         <StudentOffers
                         image="https://cdn.lovesavingsgroup.com/logos/edureka.png"
                         tenure="Expired"
-                        amount= "Rs.2000 Off Full Stack Web Development" 
+                        amount= "Rs.2000 Off Full Stack Development" 
                         details="Expired now, but what then? You wouldn't have used it anyway, so doesn't matter."
                         />
                         <StudentOffers
@@ -54,13 +54,13 @@ function MainStudentOffer() {
                         <StudentOffers
                         image="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_logo_%282019%E2%80%93present%29.svg.png"
                         tenure="Ongoing"
-                        amount= "MS Office 365 completely free for students." 
+                        amount= "MS Office 365 free for students." 
                         details="Still you have to make ppt on your own."
                         />
                         <StudentOffers
                         image="https://i0.wp.com/www.alphr.com/wp-content/uploads/2020/06/How-to-Manage-Subtitles-for-Amazon-Prime-Video-All-Major-Devices.jpg?fit=577%2C320&ssl=1"
                         tenure="Ongoing"
-                        amount= "Prime at 50% off." 
+                        amount= "Prime at 50% off. (T&C applied)" 
                         details="Believe in Lord Bezos"
                         />
             </div>

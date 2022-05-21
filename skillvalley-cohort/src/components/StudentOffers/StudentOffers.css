@@ -29,6 +29,7 @@
     padding: 1rem;
     width: 40rem;
     margin: auto;
+    height: 40vh;
 }
 
 @media screen and (max-width: 1475px) {
