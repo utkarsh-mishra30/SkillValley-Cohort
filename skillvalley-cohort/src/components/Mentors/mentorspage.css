@@ -4,6 +4,15 @@
 }
 
 .Mbackground{
-   height: 100vh;
+   min-height: 180vh;
    background-color: var(--d-blue);
+   
+}
+
+.Mbackground > h1{
+   color: white;
+}
+
+#mbcp{
+   color: white;
 }
