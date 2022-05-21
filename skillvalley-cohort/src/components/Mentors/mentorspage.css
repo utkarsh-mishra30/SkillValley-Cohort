@@ -4,10 +4,16 @@
 }
 
 .Mbackground{
-   min-height: 180vh;
+   min-height: 800px;
    background-color: var(--d-blue);
    
 }
+
+@media only screen and (max-width: 1200px) {
+   .Mbackground {
+      min-height: 2000px;
+   }
+ }
 
 .Mbackground > h1{
    color: white;

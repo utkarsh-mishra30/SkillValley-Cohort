@@ -1,6 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@600;700&family=Encode+Sans:wght@600&family=Lobster&family=Tapestry&display=swap');
 
+form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   align-items: baseline;
+   margin-left: 15px;
+   padding: 10px;
+}
 
+label{
+   margin: 3px;
+   font-size: 20px;
+   color: black;
+   align-items: baseline;
+   display: contents;
+}
+
+.container{
+   background-color: white;
+   border: 2px solid white;
+   border-radius: 20px;
+   width: 500px;
+   height: 350px;
+}
+
+input{
+   color: black;
+   height: 36px;
+   width: 279px;
+   border-radius: 8px;
+}
 
 .g-signin{
    position: absolute;
@@ -44,3 +74,4 @@
 .home:hover{
    background-color: rgba(255, 255, 255, 0.703);
 }
+

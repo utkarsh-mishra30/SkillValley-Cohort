@@ -23,8 +23,8 @@ const cards = ({name, imgUrl, prof, skills, twtr, lkdn}) => {
                </div>
 
                <div className='socials'>
-                  <a href={twtr} target="_blank"><img src={twtrimg}></img></a>
-                  <a href={lkdn} target="_blank"><img src={linkedin}></img></a>
+                  <a href={twtr} rel={twtr} target="_blank"><img src={twtrimg} alt=''></img></a>
+                  <a href={lkdn} rel={twtr} target="_blank"><img src={linkedin} alt=''></img></a>
                </div>
             </div>
             

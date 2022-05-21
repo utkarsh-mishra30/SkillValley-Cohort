@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './Header.css'
-import personName from  '../login/Login'
+// import personName from  '../login/Login'
 
 
 function Header() {
@@ -12,6 +12,7 @@ function Header() {
 
                 <Link to='/'>
                     <img src='logo.png' alt=''></img>
+                </Link>
 
                 <Link to='/home'>
                     <img src='https://logopond.com/logos/ed8a74549cdf5ebafb564ec3ecc4c231.png' alt=''></img>
@@ -36,9 +37,10 @@ function Header() {
                     <div className='section__Two'>Tutorials</div>
                 </Link>
                 
-                <Link to="/login">
+                {/* <Link to="/login">
                     <div className='section__Four'>Login</div>
 
+                </Link> */}
                 <Link to="/">
                     <div className='section__Four'>login</div>
 
