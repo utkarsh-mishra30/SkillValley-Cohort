@@ -50,6 +50,7 @@ function Body() {
     
     return (
         <div className='body'>
+          <h1>Share your experience Anonymously</h1><p>You can add your social media handles to connect with new people</p>
             <div className='white__Area'>
                 <div className='picture__Container'>
                   <img alt='robots' className='picture' src={randomImage}></img>
