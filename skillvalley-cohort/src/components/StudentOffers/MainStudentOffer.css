@@ -2,6 +2,7 @@
 .MainStudentOffer{
     background-color: var(--d-blue);
     min-height: 100vh;
+    width: auto;
 }
 
 .MainStudentOffer>h1{
@@ -31,5 +32,19 @@
     .article__Container{
         margin: 0px;
         margin-top: 3rem;
+    }
+    .MainStudentOffer{
+        width: 700px;
+        height: 3500px;
+    }
+    .MainStudentOffer h1{
+        font-size: 20px;
+    }
+    .MainStudentOffer h5{
+        font-size: 10px;
+    }
+    .article__Container{
+        margin: 0px;
+        padding: 20px 80px;
     }
 }

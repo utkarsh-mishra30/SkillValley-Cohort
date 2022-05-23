@@ -1,12 +1,13 @@
 :root{
-    --l-blue: #004AAD;
-    --d-blue: #170044; 
+    --l-blue: #000000;
+    --d-blue: #116466; 
 }
 
 .body{
     background-color: var(--d-blue);
     padding: 3rem;
     min-height: 100vh;
+    width: auto;
 }
 
 .body>h1,p{
@@ -70,4 +71,17 @@
     color: white;
     transition: 0.5s ease-in-out;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .body{
+        width: 700px;
+        font-size: 10px;
+        height: 1200px;
+    }
+    .white__Area{
+        width: 600px;
+        margin: 0px 10px;
+        padding: 0px 0px;
+    }
 }

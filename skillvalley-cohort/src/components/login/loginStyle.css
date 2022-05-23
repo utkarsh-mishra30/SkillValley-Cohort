@@ -47,7 +47,7 @@ input{
    align-items: center;
    justify-content: center;
    flex-direction: column;
-   background-color: #170044;
+   background-color: #116466;
    color: white;
    font-size: 2rem;
    font-family: 'PT Serif', serif;
@@ -74,4 +74,12 @@ input{
 .home:hover{
    background-color: rgba(255, 255, 255, 0.703);
 }
+
+@media only screen and (max-width: 700px) {
+   .myLoginPage{
+      width: 700px;
+      height: auto;
+      min-height: 900px;
+   }
+ }
 
