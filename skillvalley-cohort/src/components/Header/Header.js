@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import './Header.css'
 // import personName from  '../login/Login'
-
+import logo1 from '../images/logo2.JPG'
 
 function Header() {
     return (
@@ -10,16 +10,17 @@ function Header() {
             <div className='main__Header'>
                 <div className='left__Container'>
 
-                <Link to='/'>
-                    <img src='logo.png' alt=''></img>
-                </Link>
+                {/* <Link to='/'>
+                    <img src={logo1} alt=''></img>
+                </Link> */}
 
                 <Link to='/home'>
-                    <img src='https://logopond.com/logos/ed8a74549cdf5ebafb564ec3ecc4c231.png' alt=''></img>
+                    <img style={{width: '160px', height: '60px', margin: '15px'}} src={logo1} alt=''></img>
+                    {/* <img src='https://logopond.com/logos/ed8a74549cdf5ebafb564ec3ecc4c231.png' alt=''></img> */}
  
                 </Link>
-                <Link to="/friends">
-                    <div className='make__Friend' style={{ textDecoration: 'none' }}>Make new friend</div>
+                <Link to="/home">
+                    <div className='make__Friend' style={{ textDecoration: 'none' }}>Home</div>
                 </Link>
                 
                         
@@ -42,7 +43,7 @@ function Header() {
 
                 </Link> */}
                 <Link to="/">
-                    <div className='section__Four'>login</div>
+                    <div className='section__Four'>Login</div>
 
                 </Link>
             </div>

@@ -27,9 +27,11 @@
     font-family: 'PT Serif', serif;
     background-color: white;
     padding: 1rem;
-    width: 40rem;
-    margin: auto;
-    height: 40vh;
+    width: 35rem;
+    margin: 10px;
+    height: auto;
+    min-height: 270px;
+    margin-left: 50px;
 }
 
 @media screen and (max-width: 1475px) {
@@ -54,6 +56,7 @@
 @media screen and (max-width: 750px) {
     .main__Article{
         width: 35rem;
+        height: 200px;
     }
 }
 
@@ -89,7 +92,7 @@
 .price{
     color: #004aac;
     font-weight: 600;
-    font-size: xx-large;
+    font-size: 20px;
 }
 
 .price:hover{
@@ -116,3 +119,15 @@
     color: white;
     transition: 0.5s ease-in-out;
 }
+
+
+@media only screen and (max-width: 700px) {
+    .main__Article{
+        height: auto;
+        min-height: 100px;
+    }    
+    .price{
+        font-size: 20px;
+    }
+}
+ 

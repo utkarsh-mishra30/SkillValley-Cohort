@@ -1,11 +1,10 @@
 :root {
-    --l-blue: #004AAD;
-    --d-blue: #170044; 
-
+    --l-blue: #000000;
+    --d-blue: #116466; 
 }
 
-
 .friend{
+    padding-top: 20px;
     min-height: 100vh;
     background-color: var(--d-blue);
 }
@@ -44,7 +43,7 @@
     height: 40px;
     border-radius: 20px;
     padding: 20px;
-    outline: 4px solid var(--l-blue);
+    outline: 2px solid var(--l-blue);
 }
 
 .roboInputContainer button,
@@ -52,12 +51,23 @@
     width: 10%;
     border-radius: 20px;
     height: 40px;
-    outline: 4px solid var(--l-blue);
-    background-color: var(--l-blue);
+    outline: 2px solid var(--l-blue);
+    /* background-color: var(--l-blue); */
+    background-color: white;
 }
 
 .roboInputContainer button:hover{
-    color: white;
-    outline: 4px solid var(--l-blue);
+    color: #116466;
+    transition-duration: 0.4s;
+    background-color: rgb(230, 232, 232);
+    outline: 2px solid var(--l-blue);
+}
 
+@media only screen and (max-width: 700px) {
+    .friend{
+        width: 700px;
+    }
+    .friend>h4,h1,h4,h5{
+        font-size: 15px;
+    }
 }
