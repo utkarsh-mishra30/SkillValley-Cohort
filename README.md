@@ -74,7 +74,6 @@
 1. [Utkarsh Mishra](https://twitter.com/utkarshopedia)
 2. [Rashi Shukla](https://twitter.com/17rashishukla)
 3. [Aman Chauchan](https://twitter.com/phantomthread_d)
-4. [Shweta Thakur](#)
 
 ## Connect with team members
 
@@ -82,7 +81,6 @@
 ![Twitter URL](https://img.shields.io/twitter/url?color=blue&label=Utkarsh&logo=twitter&logoColor=white&style=flat-square&url=https%3A%2F%2Ftwitter.com%2Futkarshopedia)
 ![Twitter URL](https://img.shields.io/twitter/url?color=blue&label=Rashi&logo=twitter&logoColor=white&style=flat-square&url=https%3A%2F%2Ftwitter.com%2F17rashishukla)
 ![Twitter URL](https://img.shields.io/twitter/url?color=blue&label=Aman&logo=twitter&logoColor=white&style=flat-square&url=https%3A%2F%2Ftwitter.com%2Fphantomthread_d)
-![Twitter URL](https://img.shields.io/twitter/url?color=blue&label=Shweta&logo=twitter&logoColor=white&style=flat-square&url=https%3A%2F%2Ftwitter.com%2Fshweeta)
 
 
 <!-- LinkedIn IDs -->
@@ -98,7 +96,4 @@
 <img src="https://img.shields.io/badge/Aman -blue?style=flat&logo=linkedin&labelColor=blue">
 </a>
 
-<a href="https://www.linkedin.com/in/shweta-thakur-ba3b99211">
-<img src="https://img.shields.io/badge/Shweta -blue?style=flat&logo=linkedin&labelColor=blue">
-</a>
 
